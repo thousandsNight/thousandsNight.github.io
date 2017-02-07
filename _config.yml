@@ -1,6 +1,6 @@
 ### your site title here
 
-title: 天地不仁，以万物为刍狗！
+title: 天地不仁,以万物为刍狗！
 baseurl: /thousandsNight.github.io # name of the repository
 email: liukang@ccnc.cc
 
@@ -15,7 +15,7 @@ markdown: kramdown
 analytics: UA-83979019-1
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname: thousandsNight
 
 
 #optimization
