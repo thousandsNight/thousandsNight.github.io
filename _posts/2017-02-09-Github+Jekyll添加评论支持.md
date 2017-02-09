@@ -2,9 +2,9 @@
 
 1.在Jekyll站点的_includes目录下创建intensedebate-comments.html文件，文件内容如下。
 
-{% if page.comments != false %}
+`{% if page.comments != false %}
 	给你的站点Install IntenseDebate之后获得的脚本
-{% endif %}
+{% endif %}`
 
 2.在站点配置文件(_config.yml)中添加评论配置参数，方便灵活的enable/disable评论功能。
 
