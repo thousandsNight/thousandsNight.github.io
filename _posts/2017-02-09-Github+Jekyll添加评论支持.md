@@ -2,11 +2,7 @@
 
 1.在Jekyll站点的_includes目录下创建intensedebate-comments.html文件，文件内容如下。
 
-```
-//{% if page.comments != false %}
-	给你的站点Install IntenseDebate之后获得的脚本
-{% endif %}
-```
+![](2017-02-09-Github+Jekyll%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E6%94%AF%E6%8C%81/QQ20170209-162604@2x.png)
 
 2.在站点配置文件(_config.yml)中添加评论配置参数，方便灵活的enable/disable评论功能。
 
@@ -14,12 +10,6 @@
 
 3.在post.html文件末尾后面添加代码引用intensedebate-comments.html来显示评论框。
 
-```
-//{% if page.path contains '_posts' %}
-    {% if site.intensedebate_comments %}
-    {% include intensedebate-comments.html %}
-    {% endif %}
-{% endif %}
-```
+![](2017-02-09-Github+Jekyll%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E6%94%AF%E6%8C%81/QQ20170209-162436@2x.png)
 
 OK，快去评论一个吧！
